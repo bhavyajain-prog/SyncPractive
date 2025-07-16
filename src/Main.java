@@ -8,11 +8,12 @@ public class Main {
 //        System.out.println(Q6Sol2.multiply("2", "3"));
 //        System.out.println(Q7Sol2.swapPairs(new ListNode(1,new ListNode(2,new ListNode(3, new ListNode(4))))));
 //        System.out.println(Q8Sol2.removeNode(new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5))))), 2));
-        System.out.println(Q9Sol1.mergeKLists(
-                new ListNode[]{new ListNode(1, new ListNode(3)),
-                        new ListNode(2, new ListNode(4)),
-                        new ListNode(1, new ListNode(2, new ListNode(3))),
-                        new ListNode(5)}
-        ));
+//        System.out.println(Q9Sol1.mergeKLists(
+//                new ListNode[]{new ListNode(1, new ListNode(3)),
+//                        new ListNode(2, new ListNode(4)),
+//                        new ListNode(1, new ListNode(2, new ListNode(3))),
+//                        new ListNode(5)}
+//        ));
+        System.out.println(Q10Sol1.groupAnagrams(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"}));
     }
 }
